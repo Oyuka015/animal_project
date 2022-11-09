@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./dog.css">
+
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="sidebar close">
+    <div class="logo-details">
+        <i class=" bx-menu fa-solid fa-paw"></i>
+      <span class="logo_name">Pet Lover</span>
+    </div>
+    <ul class="nav-links">
+      <li>
+        <a href="./sidebar.html">
+          <i class='bx bx-grid-alt' ></i>
+          <span class="link_name">Нүүр хуудас</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="./sidebar.html">Нүүр хуудас</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-collection' ></i>
+            <span class="link_name">Амьтдын төрөл</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Амьтдын төрөл</a></li>
+          <li><a href="#">Муур</a></li>
+          <li><a href="#">Нохой</a></li>
+          <li><a href="#">Туулай</a></li>
+          <li><a href="#">Шувуу</a></li>
+          <li><a href="#">Яст мэлхий</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="iocn-link">
+          <a href="#">
+            <i class='bx bx-book-alt' ></i>
+            <span class="link_name">Мэдээлэл</span>
+          </a>
+          <i class='bx bxs-chevron-down arrow' ></i>
+        </div>
+        <ul class="sub-menu">
+          <li><a class="link_name" href="#">Мэдээлэл</a></li>
+          <li><a href="#">Зөвлөгөө</a></li>
+          <li><a href="#">Мал эмнэлэг</a></li>
+          <li><a href="#">Дэлгүүрүүд</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-pie-chart-alt-2' ></i>
+          <span class="link_name">Анализ</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Анализ</a></li>
+        </ul>
+      </li>
+      
+      <li>
+        <a href="#">
+          <i class='bx bx-compass' ></i>
+          <span class="link_name">Фактууд</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Фактууд</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#">
+          <i class='bx bx-cog' ></i>
+          <span class="link_name">Тохиргоо</span>
+        </a>
+        <ul class="sub-menu blank">
+          <li><a class="link_name" href="#">Тохиргоо</a></li>
+        </ul>
+      </li>
+      <li>
+        <div class="profile-details">
+            <div class="profile-content">
+            <img src="./sidebar-zurag/1.png" alt="profileImg">
+            </div>
+            <div class="name-job">
+                <div class="profile_name">Oyuka</div>
+                <div class="job">Cat lover</div>
+            </div>
+            <i class='bx bx-log-out' ></i>
+        </div>
+        </li>
+    </ul>
+  </div>
+
+  <!-- main section -->
+  <!-- <section class="home-section">
+    <div class="home-content">
+        <div class="dog-bg">
+            <div class="dog-bg1">
+              <img class="wave" src="./img/wave.png" alt=""> 
+            </div>
+        </div>
+          <div class="m-text">
+              <h1>Hi :)</h1>
+              <span class="pet-l">Pet Lovers</span>
+              <span>#BE_PAWSITIVE</span>
+          </div>
+    </div>
+
+    <div class="home-section1">
+        <div class="main-section">
+            <div class="mi-text">
+                <h1>Хамгийн чанартай <span>тэжээвэр амьтдын амин дэм</span></h1>
+                <div class="food-d">
+                    <div class="dog-food">
+                      <i class="fa-solid fa-temperature-three-quarters"></i>
+                      <h3>ХАТАХ АГААРЫН ОНОВЧТОЙ ТЕМПЕРАТУР</h3>
+                    </div>
+                    <div class="dog-food">
+                      <i class="fa-solid fa-flask"></i>
+                      <h3>ХООЛЛОЛТЫН МЭРГЭЖИЛТНҮҮДИЙН ХИЙСЭН БҮТЭЭГДЭХҮҮН</h3>
+                    </div>
+                    <div class="dog-food">
+                      <i class="fa-solid fa-carrot"></i>
+                      <h3>ОНЦГОЙ НАЙРЛАГА, ЧАНАР</h3>
+                    </div>
+                    <div class="dog-food">
+                      <i class="fa-solid fa-heart-pulse"></i>
+                      <h3>АЮУЛГҮЙ БАЙДЛЫГ ХАМГААЛАХ ДЭЭД ЗЭРГИЙН БАТАЛГАА</h3>
+                    </div>
+                </div>
+          </div>
+          <div class="img-hool">
+              <img src="./img/hool.png" alt="">
+          </div>
+    </div>
+    <div>
+        <div class="section-product">
+          <img class="dried-food" src="./img/dried food.png" alt="">
+          <div class="product-text">
+            <h1> <span>Хатаасан</span>  хоол</h1>
+            <p>НАЙРЛАГА: мах, далайн хоол, эд эрхтэн, ясыг бүхэлд нь агнуурын харьцаагаар агуулсан гараар хийсэн агаарт хатаасан жор.</p>
+            <p class="price">25'000₮ - 57'000₮</p>
+            <img class="bone" src="https://pawsitive.bold-themes.com/buddy/wp-content/uploads/sites/2/2019/08/shop_now_01.png" alt="">
+          </div>
+        </div>
+    </div>
+    <div class="last">
+      <div class="last-text">
+        <h1>,,</h1>
+        <p>Нохойг зөв тэжээллэг хоолоор хооллосноор илүү аз жаргалтай, эрүүл өсөхөд нь тус болдог. Мөн өдөр бүр салхилуулахаа битгий мартаарай. Тэдэнд энэ маш чухал шүү.</p>
+        <span class="molly">MOLLY NIELSON</span>
+        <span>Амьтны эмч</span>
+      </div>
+      <div class="last-img">
+        <img src="./img/last.png" alt="">
+      </div>
+  </div>
+
+    </div> 
+  </section> -->
+<div class="ml-[78px]">
+    <div class="w-full h-[500px] bg-[url(./img/background_05.jpg)]  bg-cover bg-no-repeat">
+        <div class="w-[100%] h-full flex items-center">
+            <div class="ml-[100px]">
+                <div class="w-full">
+                    <div class="w-full">
+                        <h1 class="text-[#fff] font-[600] text-[40px]"></h1>
+                    </div>
+                </div>  
+            </div>  
+        </div>
+        <div class="w-full  mt-[-200px] flex items-end">
+            <div class="w-full h-[300px]">
+                <img src="./img/wave.png" class="w-full h-full object-cover" alt="">
+            </div>
+        </div>
+      
+    </div>
+    <div class="w-full">
+        <div class="max-w-[1100px] px-[1rem] flex items-center mx-auto mi-text">
+            <div class="food-d mr-[20px]">
+                <div class="dog-food">
+                  <i class="fa-solid fa-temperature-three-quarters"></i>
+                  <h3>ХАТАХ АГААРЫН ОНОВЧТОЙ ТЕМПЕРАТУР</h3>
+                </div>
+                <div class="dog-food">
+                  <i class="fa-solid fa-flask"></i>
+                  <h3>ХООЛЛОЛТЫН МЭРГЭЖИЛТНҮҮДИЙН ХИЙСЭН БҮТЭЭГДЭХҮҮН</h3>
+                </div>
+                <div class="dog-food">
+                  <i class="fa-solid fa-carrot"></i>
+                  <h3>ОНЦГОЙ НАЙРЛАГА, ЧАНАР</h3>
+                </div>
+                <div class="dog-food">
+                  <i class="fa-solid fa-heart-pulse"></i>
+                  <h3>АЮУЛГҮЙ БАЙДЛЫГ ХАМГААЛАХ ДЭЭД ЗЭРГИЙН БАТАЛГАА</h3>
+                </div>
+            </div>
+            <div>
+                <img src="./img/hool.png" alt="">
+            </div>
+        </div> 
+    </div>
+    <div>
+        <div class="mt-[50px]">
+            <div class="flex items-center gap-[50px]">
+                <div class="w-[700px] h-[500px]">
+                    <img class="w-full h-full" src="./img/dried food.png" alt="">
+                </div>
+                <div class="w-[300px]">
+                    <div>
+                        <div>
+                            <h1> <span>Хатаасан</span>  хоол</h1>
+                            <p>НАЙРЛАГА: мах, далайн хоол, эд эрхтэн, ясыг бүхэлд нь агнуурын харьцаагаар агуулсан гараар хийсэн агаарт хатаасан жор.</p>
+                            <p class="price">25'000₮ - 57'000₮</p>
+                        </div>
+                        <div class="w-full flex mt-[30px] justify-center">
+                            <div class="w-[180px] h-[100px] ">   
+                                <img src="https://pawsitive.bold-themes.com/buddy/wp-content/uploads/sites/2/2019/08/shop_now_01.png" class="w-full h-full" alt="">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="ml-[78px]">
+            <div class="flex gap-[40px] justify-between items-center">
+                <div>
+                    <h1>,,</h1>
+                    <p>Нохойг зөв тэжээллэг хоолоор хооллосноор илүү аз жаргалтай, эрүүл өсөхөд нь тус болдог. Мөн өдөр бүр салхилуулахаа битгий мартаарай. Тэдэнд энэ маш чухал шүү.</p>
+                    <span class="molly">MOLLY NIELSON</span>
+                    <span>Амьтны эмч</span>
+                </div>
+                <div>
+                    <div class="w-[500px] h-[400px]">
+                        <img src="./img/last.png" class="w-full h-full" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+
+
+
+
+  <script src="./dog.js"></script>
+</body>
+</html>
